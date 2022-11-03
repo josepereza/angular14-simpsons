@@ -1,0 +1,24 @@
+<nav class="navbar">
+  <span (click)="barras = !barras" id="navbar-toggle">
+    <i *ngIf="!barras" class="fa-solid fa-bars"></i>
+    <i *ngIf="barras" class="fa-solid fa-x"></i>
+  </span>
+  <a href="#" id="logo">The Simpsons</a>
+  <ul
+    (click)="cerrar()"
+    [ngStyle]="{ barras: true ? 'display' : 'none' }"
+    [ngClass]="{ 'main-nav': !barras }"
+  >
+    <li>
+      <a  routerLink="/home" class="nav-links">Home</a>
+    </li>
+    <li>
+      <a href="#" class="nav-links">About Us</a>
+    </li>
+    <li>
+      <a href="#" class="nav-links">Contact Us</a>
+    </li>
+   
+  </ul>
+</nav>
+

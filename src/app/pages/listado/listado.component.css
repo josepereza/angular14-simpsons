@@ -1,0 +1,49 @@
+input {
+   
+        background: silver;
+        border: 1px solid #393939;
+        border-radius: 5px 5px 5px 5px;
+        color: #393939;
+        font-size: 1.5em;
+        padding: 5px;
+        margin-bottom: 20px;
+        max-width: 100%;
+        
+   
+}
+
+.card{
+    height: auto;
+    max-height: 1200px;
+    background-color: bisque;
+    box-shadow: 20px;
+    -webkit-box-shadow: 6px 6px 14px 0px rgba(0,0,0,0.58);
+-moz-box-shadow: 6px 6px 14px 0px rgba(0,0,0,0.58);
+box-shadow: 6px 6px 14px 0px rgba(0,0,0,0.58);
+border-radius: 27px 27px 27px 27px;
+-moz-border-radius: 27px 27px 27px 27px;
+-webkit-border-radius: 27px 27px 27px 27px;
+border: 2px groove #000000;
+padding: 5px;
+}
+
+.grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 15px;
+    text-align: center;
+   
+
+}
+img {
+    border-radius: 15px;
+}
+
+.container{
+    margin-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

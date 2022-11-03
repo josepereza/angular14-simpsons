@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <h2>Listado de Personajes</h2>
+<input type="text"  [formControl]="name" placeholder="Texto a buscar">
+<div class="grid">
+    <div *ngFor="let item of personajes" class="card">
+        <img src={{item.image}} width="80%" alt="">
+        <div class="informacion">
+            <span>{{item.character}}</span>
+        </div>
+    </div>
+</div>
+</div>
