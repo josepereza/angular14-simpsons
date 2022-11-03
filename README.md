@@ -1,5 +1,6 @@
 # Simpsons
-
+![images](simpsons1.png)
+![images](simpsons2.png)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server
